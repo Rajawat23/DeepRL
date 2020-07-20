@@ -17,10 +17,10 @@ from baselines.common.vec_env.subproc_vec_env import SubprocVecEnv, VecEnv
 
 from ..utils import *
 
-try:
-    import roboschool
-except ImportError:
-    pass
+# try:
+#     import roboschool
+# except ImportError:
+#     pass
 
 
 # adapted from https://github.com/ikostrikov/pytorch-a2c-ppo-acktr/blob/master/envs.py
